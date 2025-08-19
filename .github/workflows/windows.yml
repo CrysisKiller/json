@@ -39,7 +39,7 @@ jobs:
 
   msvc:
     strategy:
-      matrix:
+      matrix:   
         build_type: [Debug, Release]
         architecture: [Win32, x64]
         std_version: [default, latest]
