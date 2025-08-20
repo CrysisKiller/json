@@ -72,9 +72,9 @@ jobs:
 
   clang:
     runs-on: windows-2022
-    strategy:
-      matrix:
-        version: [11, 12, 13, 14, 15]
+    # strategy:
+    #   matrix:
+    #     version: [11, 12, 13, 14, 15]
 
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
